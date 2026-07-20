@@ -21,7 +21,7 @@ When loading supercompressed textures, libktx will deflate them. Make sure to us
 
 # Todo
 
-[] Add cube map sample 
-[] Verify if row padding is an issue with SDL3 or not. 
-[] If not too much of a pain, implement helper function to obtain `SDL3_GPUTextureFormat` from `ktxTexture`
-[] Test on DirectX and Metal
+- [ ] Add cube map sample 
+- [ ] Verify if row padding is an issue with SDL3 or not. 
+- [ ] If not too much of a pain, implement helper function to obtain `SDL3_GPUTextureFormat` from `ktxTexture`
+- [ ] Test on DirectX and Metal
