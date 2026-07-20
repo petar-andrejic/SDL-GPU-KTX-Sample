@@ -15,6 +15,8 @@ CMake variable `SLANGC_EXECUTABLE`  to point to your copy of `slangc`.
 
 Press `1` `2` or `3` to change which image in the 2D array or 3D texture is displayed
 
+Press `Q` `W` or `E` to change between 2D, 3D or 2D array texture mode respectively
+
 # Things to note
 
 When loading supercompressed textures, libktx will deflate them. Make sure to use `ktxTexture_GetDataSizeUncompressed` to size your GPU buffers. libktx lets you upload the texture directly from disk without needing to go to an intermediate CPU buffer. To do this, use `KTX_TEXTURE_CREATE_NO_STORAGE` when creating the `ktxTexture`, and use `ktxTexture_LoadImageData` directly targeting the mapped transfer buffer data.
